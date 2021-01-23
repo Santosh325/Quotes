@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Quotes</string>
+    <string name="next">Next</string>
+    <string name="share">Share</string>
+    <string name="textviewContent">Stay safe Stay Hungry!</string>
+    <string name="textAuthor">steve_jobs</string>
+    <string name="textviewHeading">Motivational Quotes</string>
+</resources>
