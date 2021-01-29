@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    <ImageView-->
+<!--        android:layout_marginBottom="5dp"-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:scaleType="fitXY"-->
+<!--        android:layout_width="220dp"-->
+<!--        android:layout_marginRight="5dp"-->
+<!--        android:layout_height="160dp"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        tools:srcCompat="@tools:sample/avatars" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/title"-->
+<!--        android:textAlignment="center"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="5dp"-->
+<!--        android:text="TextView"-->
+<!--        android:textSize="20sp"-->
+<!--        app:layout_constraintLeft_toRightOf="@id/imageView"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/overview"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="5dp"-->
+<!--        android:maxLines="3"-->
+<!--        android:ellipsize="end"-->
+<!--        android:layout_marginTop="2dp"-->
+<!--        android:text="TextView"-->
+<!--        android:textSize="14sp"-->
+<!--        app:layout_constraintLeft_toRightOf="@id/imageView"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/title" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/rating"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="5dp"-->
+<!--        android:layout_marginTop="2dp"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textSize="14sp"-->
+<!--        app:layout_constraintLeft_toRightOf="@id/imageView"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/overview" />-->
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/moviePoster"
+        android:layout_width="200dp"
+        android:layout_height="280dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
