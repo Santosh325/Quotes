@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Movie</string>
+    <string name="overview"><u>Overview:</u></string>
+    <string name="outOfTen">/10</string>
+</resources>
